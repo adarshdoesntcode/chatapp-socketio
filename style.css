@@ -1,0 +1,18 @@
+#videos{
+  display: flex; 
+  justify-content: space-evenly;
+  align-items: center;
+  padding: 1em;
+}
+
+.video-player{
+  margin: 1em;
+  background-color: black;
+  width: 50%;
+  height: 500px;
+
+
+  -webkit-transform: scaleX(-1);
+  transform: scaleX(-1);
+  
+}
